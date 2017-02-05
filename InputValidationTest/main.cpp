@@ -7,9 +7,18 @@
 //
 
 #include <iostream>
+#include "inputValidation.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    std::cout << "int: ";
+    int integer;
+    integer = getAnInt();
+    std::cout << integer << std::endl;
+    
+    std::cout << "dbl: ";
+    double dbl;
+    dbl = getADouble();
+    std::cout << dbl << std::endl;
+    
     return 0;
 }
