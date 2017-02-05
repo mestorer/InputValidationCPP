@@ -152,7 +152,7 @@ double getADouble(double min, double max) {
     return input;
 }
 
-// Returns a valid string with the first letter of the first word capitalized
+// Returns a valid string.
 std::string getAString() {
     std::string stringIn;
     std::cin.ignore();
