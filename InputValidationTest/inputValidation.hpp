@@ -1,7 +1,7 @@
 /*******************************************************************************************
  **  Author:         Michael Estorer
  **  Date:           25 Jan 2017
- **  Description:    CS162 Project 2 inputValidation functions header file.
+ **  Description:    CS162 inputValidation functions header file.
  **                  The input validation functions validate that user entries in the
  **                  console are valid before passing them back to the calling funtion.
  **
