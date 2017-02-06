@@ -152,11 +152,15 @@ double getADouble(double min, double max) {
     return input;
 }
 
-// Returns a valid string.
+// Returns a valid string of length 1 or more.
 std::string getAString() {
     std::string stringIn;
-    std::cin.ignore();
     std::getline(std::cin, stringIn);
     std::cin.clear();
-    return stringIn;
+    
+    if (stringIn.length() >= 1) {
+        return stringIn;
+    } else {
+        return " ";
+    }
 }
