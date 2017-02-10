@@ -8,8 +8,8 @@
  **                  inputValidation.hpp
  ******************************************************************************************/
 
-#ifndef inputValidation_hpp
-#define inputValidation_hpp
+#ifndef inputvalidation_hpp
+#define inputvalidation_hpp
 
 #include <string>
 #include <iostream>
@@ -35,4 +35,4 @@ double getADouble(double min, double max);
 // Returns a valid string with the first letter of the first word capitalized
 std::string getAString();
 
-#endif /* inputValidation_hpp */
+#endif /* inputvalidation_hpp */

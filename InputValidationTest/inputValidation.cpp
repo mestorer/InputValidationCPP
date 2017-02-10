@@ -8,7 +8,7 @@
  **                  inputValidation.cpp
  ******************************************************************************************/
 
-#include "inputValidation.hpp"
+#include "inputvalidation.hpp"
 
 // Returns a vaild integer
 int getAnInt() {
