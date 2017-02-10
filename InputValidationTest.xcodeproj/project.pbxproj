@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		270F38F31E46DDE1008EE014 /* inputValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 270F38F11E46DDE1008EE014 /* inputValidation.cpp */; };
 		271050BF1E423A8B00AB3C56 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 271050BE1E423A8B00AB3C56 /* main.cpp */; };
+		2796449F1E4E3B7E00FAEFC2 /* inputvalidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2796449D1E4E3B7E00FAEFC2 /* inputvalidation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		270F38F11E46DDE1008EE014 /* inputValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inputValidation.cpp; sourceTree = "<group>"; };
-		270F38F21E46DDE1008EE014 /* inputValidation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = inputValidation.hpp; sourceTree = "<group>"; };
 		271050BB1E423A8B00AB3C56 /* InputValidationTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = InputValidationTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		271050BE1E423A8B00AB3C56 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2796449D1E4E3B7E00FAEFC2 /* inputvalidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = inputvalidation.cpp; sourceTree = "<group>"; };
+		2796449E1E4E3B7E00FAEFC2 /* inputvalidation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = inputvalidation.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				271050BE1E423A8B00AB3C56 /* main.cpp */,
-				270F38F11E46DDE1008EE014 /* inputValidation.cpp */,
-				270F38F21E46DDE1008EE014 /* inputValidation.hpp */,
+				2796449D1E4E3B7E00FAEFC2 /* inputvalidation.cpp */,
+				2796449E1E4E3B7E00FAEFC2 /* inputvalidation.hpp */,
 			);
 			path = InputValidationTest;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				271050BF1E423A8B00AB3C56 /* main.cpp in Sources */,
-				270F38F31E46DDE1008EE014 /* inputValidation.cpp in Sources */,
+				2796449F1E4E3B7E00FAEFC2 /* inputvalidation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
